@@ -4,10 +4,10 @@
 * 项目中部分前端库采用外部CDN引入，可以减少打包文件体积，加快页面渲染。
 * 可视化数据大屏展示对前端性能要求高，建议使用谷歌浏览器查看或开发，屏幕尺寸为1920px宽和1080px高是最佳效果。
 * 目前制作数据可视化大屏，前端比较流行的第三方库有：Echarts（百度），AntV（阿里），Highcharts（国外公司），D3.js（国外公司）。
-* 如果感觉还不错的话，老铁们是不是赏个★Star鼓励一哈，后续会持续更新和优化，也期待大家的交流。
 
 
-[在线效果演示](https://jackchen0120.github.io/vueDataV/)
+
+[在线效果演示](https://www.agribigdata.net/display/#/brand)
 
 # 效果截图
 
@@ -129,13 +129,10 @@ npm install 或 yarn
 ```
 npm run serve
 ```
-运行之后，访问地址：http://localhost:8081
+运行之后，访问地址：http://localhost:8081/display
 
 ## 生产环境打包
 ```
 npm run build
 ```
 
-#### 获取更多项目实战经验及各种源码资源，请关注作者公众号：懒人码农
-
-<img src="https://user-gold-cdn.xitu.io/2020/7/1/1730b0bf4ee1f62e?imageslim" width="500" alt="公众号二维码" />
