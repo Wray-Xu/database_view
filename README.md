@@ -9,25 +9,6 @@
 
 [在线效果演示](https://www.agribigdata.net/display/#/brand)
 
-# 效果截图
-
-## 登录界面
-
-<img src="https://github.com/jackchen0120/vueDataV/blob/master/public/img/login_0.png" width="900" alt="登录界面" />
-<img src="https://github.com/jackchen0120/vueDataV/blob/master/public/img/login_1.png" width="900" alt="登录界面" />
-<img src="https://github.com/jackchen0120/vueDataV/blob/master/public/img/login_2.png" width="900" alt="登录界面" />
-
-## 首页酷屏统计图
-
-<img src="https://github.com/jackchen0120/vueDataV/blob/master/public/img/dataV_1.png" width="900" alt="首页酷屏统计图" />
-<img src="https://github.com/jackchen0120/vueDataV/blob/master/public/img/dataV_2.png" width="900" alt="首页酷屏统计图" />
-<img src="https://github.com/jackchen0120/vueDataV/blob/master/public/img/dataV_3.png" width="900" alt="首页酷屏统计图" />
-<img src="https://github.com/jackchen0120/vueDataV/blob/master/public/img/dataV_4.png" width="900" alt="首页酷屏统计图" />
-
-## 公司品牌介绍
-
-<img src="https://github.com/jackchen0120/vueDataV/blob/master/public/img/brand.png" width="900" alt="炫酷展示公司品牌" />
-
 
 
 # 项目架构
@@ -49,8 +30,7 @@
     │      │  common.scss             // 公用样式文件
     │      └─fonts                    // 字体库文件        
     ├─components
-    │  │  index.js                    // 封装组件库
-    │  ├─bar3d                        // 3D立体柱状图
+    │  │  index.js                    // 封装组件库   
     │  ├─bgAnimation                  // 登录界面背景图动画      
     │  ├─cakeLinkage                  // 柱饼组合联动    
     │  ├─circleNesting                // 圆环套圆环   
@@ -66,21 +46,20 @@
     │  │      wordCloud.vue           // 产品热词    
     │  ├─dynamicLine                  // 动态轮播折线图   
     │  ├─dynamicList                  // 动态列表动画   
+    │  ├─echartsmapanhui              // 安徽地图
+    │  ├─enterprisecount              // 企业数量   
     │  ├─flashCloud                   // 闪动云  
     │  ├─gauge                        // 仪表盘   
+    │  ├─goodcount                    // 产品数量
+    │  ├─goodsell                     // 产品销售 
+    │  ├─goodsum                      // 产品总量    
     │  ├─modal                        // 自定义全局模态框   
+    │  ├─plantationcount              // 基地数量
     │  ├─pyramid                      // 金字塔动画   
     │  ├─pyramidTrend                 // 金字塔趋势  
-    │  ├─rainbow                      // 彩虹轨道图    
-    │  ├─ringPie                      // 环形饼图    
-    │  ├─ringPin                      // 环形气泡图   
-    │  ├─rotateColorful               // 旋转多彩图   
-    │  ├─scanRadius                   // 扫描半径图 
-    │  ├─scrollArc                    // 滚动弧形线  
     │  ├─seamless                     // 新闻无缝滚动 
     │  ├─sinan                        // 司南排名图  
-    │  ├─staffMix                     // 人员占比   
-    │  ├─szBar                        // 双轴柱状图 
+    │  ├─sitecount                    // 地块数量   
     │  ├─toast 
     │  │      index.js                // 注册全局消息提示框组件
     │  │      index.vue               // 自定义消息提示框模板
@@ -91,9 +70,8 @@
     ├─store
     │      index.js                   // 状态管理仓库未使用到
     └─views
-            Brand.vue                 // 公司品牌介绍
-            Home.vue                  // 酷屏首页统计图
-            Login.vue                 // 登录界面
+            Brand.vue                 // 首页
+            Home.vue                  // 测试页       
 ```
 
 
@@ -120,7 +98,7 @@
 
 # 下载安装依赖
 ```
-git clone https://github.com/jackchen0120/vueDataV.git
+git clone https://github.com/ahauxulei/database_view.git
 cd vueDataV
 npm install 或 yarn
 ```
